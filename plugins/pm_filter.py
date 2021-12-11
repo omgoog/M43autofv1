@@ -442,6 +442,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('➡️ 𝖧𝖾𝗅𝗉', callback_data='help'),         
             InlineKeyboardButton('🔺𝖠𝖻𝗈𝗎𝗍', callback_data='about')                              
+            ],[
+            InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -451,14 +453,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('𝖬𝖺𝗇𝗎𝖾𝗅 𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝖠𝗎𝗍𝗈 𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct'),
+            InlineKeyboardButton('𝖤𝗑𝗍𝗋𝖺 𝖬𝗈𝖽𝗌', callback_data='extra')
             ],[
-            InlineKeyboardButton('🏠 𝖧𝗈𝗆𝖾', callback_data='start'),
+            InlineKeyboardButton('👤 𝖠𝖣𝖬𝖨𝖭', url='https://t.me/CVBHJOI_BOT'),
+            ],[
             InlineKeyboardButton('🔮 𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats')
+            ],[
+            InlineKeyboardButton('🔙 𝖡𝖠𝖢𝖪', callback_data='start'),
+            InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -468,11 +474,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/DFF_UPDATE'),
-            InlineKeyboardButton('🖍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', callback_data='source')
+            InlineKeyboardButton('🛠 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/DFF_UPDATE'),
+            InlineKeyboardButton('⚙ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/Hollywood_0980')
             ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('➡️ 𝖧𝖾𝗅𝗉', callback_data='help'),
+            InlineKeyboardButton('⛏ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/Hollywood_0980')
+            ],[
+            InlineKeyboardButton('⚔ 𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤', callback_data='source')
+            ],[
+            InlineKeyboardButton('🔙 𝖡𝖠𝖢𝖪', callback_data='start'),
+            InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
