@@ -478,7 +478,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚙ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/Hollywood_0980')
             ],[
             InlineKeyboardButton('➡️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('⛏ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/Hollywood_0980')
+            InlineKeyboardButton('⛏ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/CVBHJOI_BOT')
             ],[
             InlineKeyboardButton('⚔ 𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤', callback_data='source')
             ],[
