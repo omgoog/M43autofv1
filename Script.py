@@ -5,8 +5,13 @@ MY NAME IS <a href=https://t.me/{}>{}</a>,
 <i>Iam A Simple Auto Filter + Movie Search + Manual Filter Bot. I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>
 
 <b>Made With ❤ BY @DFF_UPDATE</b>"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.@Hollywood_0980"""
+    HELP_TXT = """HEY {}
+<b> Here is The My Commands.</b>
+
+-> If you have 300000+ files and you want to add in this bot then contact admin.
+-> If you have any problem then connect to admin.
+
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @DFF_UPDATE ⚔️</b>"""
     ABOUT_TXT = """<b>✯ MY NAME:</b> {}
 <b>💥 CREATER:</b> <a href=https://t.me/DFF_UPDATE>DFF UPDATES</a>
 <b>💥 LIBRARY:</b> <code>PYROGRAM</code>
@@ -14,10 +19,6 @@ MY NAME IS <a href=https://t.me/{}>{}</a>,
 <b>💥 DATA BASE:</b> <code>MONGO DB</code>
 <b>💥 BOT SERVER:</b> <code>HEROKU</code>
 <b>💥 BUILD STATUS:</b> <code>v1.0.1 [ BETA ]</code></b>
-
-<b>NOTE:</b>
--> If you have 300000+ files and you want to add in this bot then contact admin.
--> If you have any problem then connect to admin.
 
 <b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @DFF_UPDATE ⚔️</b>
 """
@@ -27,7 +28,7 @@ MY NAME IS <a href=https://t.me/{}>{}</a>,
 <i>- JuniFer Lax is a open source project. 
 - Source - If you want SOURCE CODE then talk to admin. 👍🏼</i>
 
- <a href='https://t.me/CVBHJOI_BOT'>🇦 🇩 🇲 🇮 🇳</a>
+      <a href='https://t.me/CVBHJOI_BOT'>🇦 🇩 🇲 🇮 🇳</a>
 
 <b>Made With ❤ BY @DFF_UPDATE</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
