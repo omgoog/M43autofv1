@@ -82,13 +82,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁 𝖬𝗈𝗏𝗂𝖾𝗌', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/DFF_UPDATE')
+            InlineKeyboardButton('🛠 𝖴𝗉𝖽𝖺𝗍𝖾', url='https://t.me/DFF_UPDATE'),
+            InlineKeyboardButton('⚙ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/Hollywood_0980')
             ],[
-            InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('🤔 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
+            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁 𝖸𝗈𝗎𝗋 𝖬𝗈𝗏𝗂𝖾𝗌🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('❔ 𝖧𝗈𝗐 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾 ❔', url='https://t.me/LkLMNL_09870/213')
+            InlineKeyboardButton('➡️ 𝖧𝖾𝗅𝗉', callback_data='help'),
+            InlineKeyboardButton('🔺𝖠𝖻𝗈𝗎𝗍', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
