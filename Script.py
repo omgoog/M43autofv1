@@ -1,21 +1,35 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+    START_TXT = """<b>Hello {}</b>
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 
+
+<i>Iam A Simple Auto Filter + Movie Search + Manual Filter Bot. I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>
+
+<b>Made With ❤ BY @DFF_UPDATE</b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.@Hollywood_0980"""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+    ABOUT_TXT = """<b>✯ MY NAME:</b> {}
+<b>💥 CREATER:</b> <a href=https://t.me/DFF_UPDATE>DFF UPDATES</a>
+<b>💥 LIBRARY:</b> <code>PYROGRAM</code>
+<b>💥 LANGUAGE:</b> <code>PYTHON 𝟹</code>
+<b>💥 DATA BASE:</b> <code>MONGO DB</code>
+<b>💥 BOT SERVER:</b> <code>HEROKU</code>
+<b>💥 BUILD STATUS:</b> <code>v1.0.1 [ BETA ]</code></b>
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+<b>NOTE:</b>
+-> If you have 300000+ files and you want to add in this bot then contact admin.
+-> If you have any problem then connect to admin.
+
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @DFF_UPDATE ⚔️</b>
+"""
+    SOURCE_TXT = """<b>NOTE:</b>
+<b>how are you guys. any problem ? 😄</b>
+
+<i>- JuniFer Lax is a open source project. 
+- Source - If you want SOURCE CODE then talk to admin. 👍🏼</i>
+
+ <a href='https://t.me/CVBHJOI_BOT'>🇦 🇩 🇲 🇮 🇳</a>
+
+<b>Made With ❤ BY @DFF_UPDATE</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
@@ -90,12 +104,15 @@ This module only works for my admins
 • /ban  - <code>to ban a user.</code>
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+• /broadcast - <code>to broadcast a message to all users</code>
+
+<b>© @DFF_UPDATE</b>
+"""
+    STATUS_TXT = """<b>★ Total Files:</b> <code>{}</code>
+<b>★ Total Users:</b> <code>{}</code>
+<b>★ Total Chats:</b> <code>{}</code>
+<b>★ Used Storage:</b> <code>{}</code> 𝙼𝚒𝙱
+<b>★ Free Storage:</b> <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
